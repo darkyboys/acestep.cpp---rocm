@@ -51,6 +51,7 @@ buildall.cmd      # all backends (CUDA + Vulkan + CPU, runtime loading)
 
 ```bash
 ./buildcuda.sh    # NVIDIA GPU
+./buildrocm.sh    # AMD GPU
 ./buildvulkan.sh  # AMD/Intel GPU (Vulkan)
 ./buildcpu.sh     # CPU only (with BLAS)
 ./buildall.sh     # all backends (CUDA + Vulkan + CPU, runtime loading)
