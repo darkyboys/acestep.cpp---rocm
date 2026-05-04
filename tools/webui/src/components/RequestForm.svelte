@@ -536,7 +536,6 @@
 		accept=".json,.mp3,.wav,.vae"
 		bind:this={fileInput}
 		onchange={onFileSelected}
-		hidden
 	/>
 	<div class="toolbar">
 		<button type="button" onclick={importJson} title="Open JSON prompt, MP3, WAV or VAE latents"
